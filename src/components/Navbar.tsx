@@ -33,17 +33,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 bg-gradient-to-br from-maroon-700 to-maroon-900 rounded-lg flex items-center justify-center shadow-lg shadow-maroon-900/30 group-hover:shadow-maroon-900/50 transition-shadow duration-300">
-              <span className="text-gold-400 font-playfair font-bold text-xl">M</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className={`font-playfair font-bold text-lg leading-tight transition-colors duration-300 ${scrolled ? 'text-maroon-900' : 'text-white'}`}>
-                Mauli Furnishing
-              </h1>
-              <p className={`text-[10px] tracking-[0.2em] uppercase transition-colors duration-300 ${scrolled ? 'text-gold-600' : 'text-gold-300'}`}>
-                Home Decor & Mattresses
-              </p>
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="Mauli Furnishing"
+              className="h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            />
           </a>
 
           {/* Desktop Nav */}
