@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import PageLoader from './components/skeleton/PageLoader';
+import WhatsAppPopup from './components/WhatsAppPopup';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Reviews />
         <Contact />
         <Footer />
+        <WhatsAppPopup businessPhone="+917498093633" />
       </div>
     </PageLoader>
   );
