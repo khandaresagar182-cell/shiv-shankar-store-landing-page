@@ -36,8 +36,16 @@ export default function Navbar() {
             <img
               src="/images/logo.png"
               alt="Mauli Furnishing"
-              className="h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
+            <div className="hidden sm:block">
+              <h1 className={`font-playfair font-bold text-lg leading-tight transition-colors duration-300 ${scrolled ? 'text-maroon-900' : 'text-white'}`}>
+                Mauli Furnishing
+              </h1>
+              <p className={`text-[10px] tracking-[0.2em] uppercase transition-colors duration-300 ${scrolled ? 'text-gold-600' : 'text-gold-300'}`}>
+                Home Decor & Mattresses
+              </p>
+            </div>
           </a>
 
           {/* Desktop Nav */}

@@ -38,15 +38,11 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-maroon-600 to-maroon-700 rounded-xl flex items-center justify-center shadow-lg border border-maroon-500/30">
-                <span className="text-gold-400 font-playfair font-bold text-2xl">M</span>
-              </div>
-              <div>
-                <h3 className="font-playfair font-bold text-white text-lg">Mauli Furnishing</h3>
-                <p className="text-gold-400/70 text-[10px] tracking-[0.15em] uppercase">
-                  Home Decor & Mattresses
-                </p>
-              </div>
+              <img
+                src="/images/logo.png"
+                alt="Mauli Furnishing"
+                className="h-12 w-auto object-contain"
+              />
             </div>
             <p className="text-white/40 font-inter text-sm leading-relaxed mb-6">
               Your one-stop destination for premium home furnishing solutions.
