@@ -14,7 +14,7 @@ const services: ServiceItem[] = [
     icon: Sun,
     title: 'Blinds & American Curtains',
     desc: 'Elegant window solutions with a wide range of fabrics, textures, and automated options to perfect your living space.',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=400&q=80',
+    image: '/images/curtain.jpeg',
     color: 'from-maroon-700 to-maroon-900',
   },
   {

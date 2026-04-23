@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="fade-in-up inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
             <Star size={14} className="text-gold-400" fill="currentColor" />
             <span className="text-gold-300 text-sm font-medium font-inter">
-              Premium Home Furnishing Since Establishment
+              Premium Home Furnishing
             </span>
           </div>
 
@@ -48,26 +48,26 @@ export default function Hero() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="fade-in-up-delay-3 flex flex-wrap gap-4">
+          <div className="fade-in-up-delay-3 flex flex-wrap gap-3">
             <a
               href="#services"
-              className="group flex items-center gap-2 bg-gradient-to-r from-gold-500 to-gold-600 text-maroon-950 px-8 py-4 rounded-full font-semibold text-base hover:from-gold-400 hover:to-gold-500 transition-all duration-300 shadow-xl shadow-gold-500/20 hover:shadow-gold-500/40 hover:-translate-y-1"
+              className="group flex items-center gap-2 bg-gradient-to-r from-gold-500 to-gold-600 text-maroon-950 px-5 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base hover:from-gold-400 hover:to-gold-500 transition-all duration-300 shadow-xl shadow-gold-500/20 hover:shadow-gold-500/40 hover:-translate-y-1"
             >
-              <ShoppingBag size={18} />
+              <ShoppingBag size={16} />
               Explore Products
-              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+              <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
               href="https://wa.me/c/917498093633"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-green-700 transition-all duration-300 shadow-xl shadow-green-900/20 hover:-translate-y-1"
+              className="flex items-center gap-2 bg-green-600 text-white px-5 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base hover:bg-green-700 transition-all duration-300 shadow-xl shadow-green-900/20 hover:-translate-y-1"
             >
               View Full Catalog
             </a>
             <a
               href="#contact"
-              className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:-translate-y-1"
+              className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/30 text-white px-5 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:-translate-y-1"
             >
               Contact Us
             </a>
@@ -75,7 +75,7 @@ export default function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl">
+        <div className="mt-10 sm:mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-3xl">
           {[
             { value: '500+', label: 'Happy Customers' },
             { value: '50+', label: 'Product Varieties' },
@@ -84,12 +84,12 @@ export default function Hero() {
           ].map((stat, i) => (
             <div
               key={stat.label}
-              className={`fade-in-up-delay-${i + 1} text-center md:text-left`}
+              className={`fade-in-up-delay-${i + 1} text-center md:text-left bg-white/5 backdrop-blur-sm rounded-xl p-3 sm:p-0 sm:bg-transparent sm:backdrop-blur-none`}
             >
-              <div className="text-2xl sm:text-3xl font-playfair font-bold text-gold-400">
+              <div className="text-xl sm:text-3xl font-playfair font-bold text-gold-400">
                 {stat.value}
               </div>
-              <div className="text-white/50 text-sm font-inter mt-1">
+              <div className="text-white/50 text-xs sm:text-sm font-inter mt-1">
                 {stat.label}
               </div>
             </div>

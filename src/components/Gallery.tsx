@@ -23,7 +23,7 @@ const galleryImages = [
     category: 'Bedroom',
   },
   {
-    src: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80',
+    src: '/images/curtain.jpeg',
     alt: 'Window Curtains',
     category: 'Curtains',
   },
@@ -69,7 +69,7 @@ export default function Gallery() {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4">
           {galleryImages.map((img, idx) => (
             <div
               key={idx}

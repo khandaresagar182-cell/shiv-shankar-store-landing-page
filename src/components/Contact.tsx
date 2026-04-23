@@ -22,7 +22,7 @@ export default function Contact() {
               <MapPin className="text-gold-400" />
             </div>
             <h3 className="font-bold text-lg">Visit Us</h3>
-            <p className="text-white/60 text-sm">Mauli Krupa Apartment, Kuwarbav, Ratnagiri, MH 415639</p>
+            <p className="text-white/60 text-sm">Mauli Handloom Gadi Karkhana, 2 Bhairavnager, Dhanori Rd, Bhairav Nagar, Dhanori, Pune, Maharashtra 411015</p>
           </a>
 
           <a
@@ -34,7 +34,7 @@ export default function Contact() {
             </div>
             <h3 className="font-bold text-lg">Call Us</h3>
             <p className="text-white/60 text-sm">+91 7498093633</p>
-            <p className="text-white/40 text-xs">Mon-Sat: 9 AM - 8 PM</p>
+            <p className="text-white/40 text-xs">Mon-Sat: 10 AM - 10 PM</p>
           </a>
 
           <a

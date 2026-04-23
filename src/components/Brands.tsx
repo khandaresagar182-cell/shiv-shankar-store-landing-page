@@ -1,11 +1,11 @@
 import { Award, ShieldCheck } from 'lucide-react';
 
 const brands = [
-  { name: 'Century', tagline: 'Crafted for Life' },
-  { name: 'Peps', tagline: 'Rest. Relieve. Restore.' },
-  { name: 'Kurlon', tagline: 'Sleep Beautiful' },
-  { name: 'Sleepwell', tagline: 'Sleepwell, Live Well' },
-  { name: 'Duroflex', tagline: 'Sleep Smart' },
+  { name: 'Centuary', tagline: 'India Ka Sleep Specialist', logo: '/images/brands/century.jpg' },
+  { name: 'Peps', tagline: 'Rest. Relieve. Restore.', logo: '/images/brands/peps.png' },
+  { name: 'Kurlon', tagline: 'Sleep Beautiful', logo: '/images/brands/kurlon.png' },
+  { name: 'Sleepwell', tagline: 'Sleepwell, Live Well', logo: '/images/brands/sleepwell.jpeg' },
+  { name: 'Duroflex', tagline: 'Sleep Smart', logo: '/images/brands/duroflex.jpg' },
 ];
 
 export default function Brands() {
@@ -42,7 +42,7 @@ export default function Brands() {
           {brands.map((brand, idx) => (
             <div
               key={brand.name}
-              className="group relative bg-gradient-to-b from-cream to-white rounded-2xl p-6 text-center border border-maroon-100/50 hover:border-gold-400/50 shadow-sm hover:shadow-xl hover:shadow-gold-500/10 transition-all duration-500 hover:-translate-y-2"
+              className="group relative bg-gradient-to-b from-cream to-white rounded-2xl p-4 sm:p-6 text-center border border-maroon-100/50 hover:border-gold-400/50 shadow-sm hover:shadow-xl hover:shadow-gold-500/10 transition-all duration-500 hover:-translate-y-2"
               style={{ animationDelay: `${idx * 100}ms` }}
             >
               {/* Decorative corner */}
@@ -50,11 +50,21 @@ export default function Brands() {
                 <ShieldCheck size={14} className="text-gold-500" />
               </div>
 
-              {/* Icon Placeholder */}
-              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-maroon-700 to-maroon-800 rounded-2xl flex items-center justify-center shadow-lg shadow-maroon-900/20 group-hover:shadow-maroon-900/40 transition-shadow duration-300">
-                <span className="text-gold-400 font-playfair font-bold text-2xl">
-                  {brand.name[0]}
-                </span>
+              {/* Brand Logo */}
+              <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 rounded-xl sm:rounded-2xl overflow-hidden shadow-lg shadow-maroon-900/20 group-hover:shadow-maroon-900/40 transition-shadow duration-300">
+                {brand.logo ? (
+                  <img
+                    src={brand.logo}
+                    alt={`${brand.name} logo`}
+                    className="w-full h-full object-contain bg-white p-1"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-maroon-700 to-maroon-800 flex items-center justify-center">
+                    <span className="text-gold-400 font-playfair font-bold text-xl sm:text-2xl">
+                      {brand.name[0]}
+                    </span>
+                  </div>
+                )}
               </div>
 
               <h3 className="font-playfair font-bold text-lg text-maroon-900 mb-1">
