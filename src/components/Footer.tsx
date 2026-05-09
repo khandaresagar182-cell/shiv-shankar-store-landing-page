@@ -7,7 +7,7 @@ const quickLinks = [
   { name: 'Brands', href: '#brands' },
   { name: 'Reviews', href: '#reviews' },
   { name: 'WhatsApp Catalog', href: 'https://wa.me/c/917498093633', external: true },
-  { name: 'Visit on Maps', href: 'https://maps.app.goo.gl/bY697UhbHq58mx9PA?g_st=aw', external: true },
+  { name: 'Visit on Maps', href: 'https://share.google/o85XdsMefOkZE8YSv', external: true },
 ];
 
 const services = [
@@ -38,9 +38,9 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <div className="mb-6">
-              <h3 className="font-playfair font-bold text-white text-lg">Mauli Furnishing</h3>
+              <h3 className="font-playfair font-bold text-white text-lg">Shiv Shankar Curtain Mall</h3>
               <p className="text-gold-400/70 text-[10px] tracking-[0.15em] uppercase">
-                Home Decor & Mattresses
+                Curtains & Home Furnishing
               </p>
             </div>
             <p className="text-white/40 font-inter text-sm leading-relaxed mb-6">
@@ -143,12 +143,12 @@ export default function Footer() {
                 </div>
               </a>
 
-              <a href="https://maps.app.goo.gl/bY697UhbHq58mx9PA?g_st=aw" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
+              <a href="https://share.google/o85XdsMefOkZE8YSv" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
                 <div className="w-10 h-10 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-gold-500/20 group-hover:border-gold-500/30 transition-all duration-300">
                   <MapPin size={16} className="text-gold-400" />
                 </div>
                 <div>
-                  <p className="text-white/70 font-inter text-sm">Mauli Handloom Gadi Karkhana, 2 Bhairavnager, Dhanori Rd, Bhairav Nagar, Dhanori, Pune, Maharashtra 411015</p>
+                  <p className="text-white/70 font-inter text-sm">Shiv Shankar Curtain Mall, Shop 6, Gogawale Complex, Near Life Line Hospital, Nagar Road, Wagholi, Pune 412207</p>
                   <p className="text-white/30 font-inter text-xs hover:text-gold-400 transition-colors">Click to open on Google Maps</p>
                 </div>
               </a>
@@ -181,7 +181,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/30 font-inter text-sm text-center sm:text-left">
-            © {new Date().getFullYear()} Mauli Furnishing (Mauli Handloom & Gadi Karkhana Furnishing). All rights reserved.
+            © {new Date().getFullYear()} Shiv Shankar Curtain Mall. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-white/30 font-inter text-sm">
             Developed <Heart size={14} className="text-red-500" fill="currentColor" /> by omii
