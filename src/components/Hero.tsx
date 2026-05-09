@@ -1,15 +1,37 @@
 import { ArrowRight, Star, ShoppingBag, ChevronDown } from 'lucide-react';
+import { useState, useEffect } from 'react';
+
+const heroImages = [
+  '/images/hero-bg.png',
+  '/images/hero-bg-2.png',
+  '/images/hero-bg-3.png',
+  '/images/hero-bg-4.png',
+];
 
 export default function Hero() {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % heroImages.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Image Slideshow */}
       <div className="absolute inset-0">
-        <img
-          src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&q=80"
-          alt="Premium Home Interior"
-          className="w-full h-full object-cover"
-        />
+        {heroImages.map((src, index) => (
+          <img
+            key={src}
+            src={src}
+            alt={`Premium Curtain Showroom ${index + 1}`}
+            className="absolute inset-0 w-full h-full object-cover transition-opacity duration-[2000ms] ease-in-out"
+            style={{ opacity: index === currentImage ? 1 : 0 }}
+          />
+        ))}
+        {/* Overlays — same as before */}
         <div className="absolute inset-0 bg-gradient-to-r from-maroon-950/90 via-maroon-900/80 to-maroon-950/70" />
         <div className="absolute inset-0 bg-gradient-to-t from-maroon-950/60 via-transparent to-maroon-950/30" />
       </div>

@@ -5,18 +5,20 @@
   --font-inter: 'Inter', sans-serif;
   --font-marathi: 'Tiro Devanagari Marathi', serif;
 
-  --color-maroon-50: #fdf2f5;
-  --color-maroon-100: #f9e1e8;
-  --color-maroon-200: #f3c5d3;
-  --color-maroon-300: #ea9db3;
-  --color-maroon-400: #de6d8d;
-  --color-maroon-500: #cf4470;
-  --color-maroon-600: #bb2758;
-  --color-maroon-700: #9e1b48;
-  --color-maroon-800: #83183f;
-  --color-maroon-900: #6B1535;
-  --color-maroon-950: #3d061b;
+  /* Forest Green palette — derived from Shiv Shankar Curtain Mall logo */
+  --color-maroon-50: #f0f9f4;
+  --color-maroon-100: #d8f0e3;
+  --color-maroon-200: #b3e1c8;
+  --color-maroon-300: #80c9a4;
+  --color-maroon-400: #4fad7e;
+  --color-maroon-500: #2e9162;
+  --color-maroon-600: #20764e;
+  --color-maroon-700: #1a5e40;
+  --color-maroon-800: #174b35;
+  --color-maroon-900: #143d2c;
+  --color-maroon-950: #0a2218;
 
+  /* Gold accent — matches logo's golden yellow text */
   --color-gold-50: #fefbf0;
   --color-gold-100: #fdf4d6;
   --color-gold-200: #fbe7ab;
@@ -29,9 +31,9 @@
   --color-gold-900: #713c13;
   --color-gold-950: #421e06;
 
-  --color-cream: #FFF9F1;
-  --color-cream-dark: #F5EDE0;
-  --color-cream-darker: #E8DDD0;
+  --color-cream: #F6FAF7;
+  --color-cream-dark: #EAF2EC;
+  --color-cream-darker: #DCE6DE;
 }
 
 /* Smooth scrolling */
