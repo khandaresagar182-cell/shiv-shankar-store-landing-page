@@ -35,7 +35,7 @@ export default function Navbar() {
           <a href="#home" className="flex items-center gap-3 group">
             <img
               src="/images/logo.png"
-              alt="Mauli Furnishing"
+              alt="Shiv Shankar Curtain Mall"
               className="h-20 sm:h-28 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
             <div className="flex flex-col">
@@ -43,7 +43,7 @@ export default function Navbar() {
                 The Perfect
               </span>
               <span className="font-playfair text-gold-600 text-[10px] sm:text-sm font-bold tracking-[0.15em] uppercase">
-                Furnishing Store
+                Furnishing Shop
               </span>
             </div>
           </a>
