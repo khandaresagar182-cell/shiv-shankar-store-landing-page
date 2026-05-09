@@ -5,35 +5,35 @@
   --font-inter: 'Inter', sans-serif;
   --font-marathi: 'Tiro Devanagari Marathi', serif;
 
-  /* Forest Green palette — derived from Shiv Shankar Curtain Mall logo */
-  --color-maroon-50: #f0f9f4;
-  --color-maroon-100: #d8f0e3;
-  --color-maroon-200: #b3e1c8;
-  --color-maroon-300: #80c9a4;
-  --color-maroon-400: #4fad7e;
-  --color-maroon-500: #2e9162;
-  --color-maroon-600: #20764e;
-  --color-maroon-700: #1a5e40;
-  --color-maroon-800: #174b35;
-  --color-maroon-900: #143d2c;
-  --color-maroon-950: #0a2218;
+  /* Deep Royal Navy — premium luxury blue palette */
+  --color-maroon-50: #f0f3fa;
+  --color-maroon-100: #dce4f5;
+  --color-maroon-200: #bfccea;
+  --color-maroon-300: #93a8d9;
+  --color-maroon-400: #6980c5;
+  --color-maroon-500: #4a5fb0;
+  --color-maroon-600: #3a4a96;
+  --color-maroon-700: #303c7a;
+  --color-maroon-800: #2b3466;
+  --color-maroon-900: #272e55;
+  --color-maroon-950: #111738;
 
-  /* Gold accent — matches logo's golden yellow text */
-  --color-gold-50: #fefbf0;
-  --color-gold-100: #fdf4d6;
-  --color-gold-200: #fbe7ab;
-  --color-gold-300: #f7d574;
-  --color-gold-400: #f2be3d;
-  --color-gold-500: #e5a516;
-  --color-gold-600: #ca7f0b;
-  --color-gold-700: #a75d0c;
-  --color-gold-800: #884a10;
-  --color-gold-900: #713c13;
-  --color-gold-950: #421e06;
+  /* Rich Warm Gold — luxurious accent */
+  --color-gold-50: #fefce8;
+  --color-gold-100: #fef9c3;
+  --color-gold-200: #fef08a;
+  --color-gold-300: #fde047;
+  --color-gold-400: #facc15;
+  --color-gold-500: #eab308;
+  --color-gold-600: #ca8a04;
+  --color-gold-700: #a16207;
+  --color-gold-800: #854d0e;
+  --color-gold-900: #713f12;
+  --color-gold-950: #422006;
 
-  --color-cream: #F6FAF7;
-  --color-cream-dark: #EAF2EC;
-  --color-cream-darker: #DCE6DE;
+  --color-cream: #F7F8FC;
+  --color-cream-dark: #ECEEF5;
+  --color-cream-darker: #DFE2EB;
 }
 
 /* Smooth scrolling */
@@ -100,7 +100,7 @@ html {
 
 /* Gradient text */
 .text-gradient-gold {
-  background: linear-gradient(135deg, #f2be3d, #ca7f0b);
+  background: linear-gradient(135deg, #facc15, #ca8a04);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

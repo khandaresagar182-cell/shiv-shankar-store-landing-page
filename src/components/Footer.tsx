@@ -159,7 +159,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-white/70 font-inter text-sm">Working Hours</p>
-                  <p className="text-white/30 font-inter text-xs">Mon - Sat: 10 AM - 10 PM (Sunday Closed)</p>
+                  <p className="text-white/30 font-inter text-xs">Mon - Sat: 10 AM - 10 PM</p>
                 </div>
               </div>
 
